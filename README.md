@@ -92,13 +92,10 @@ With this application, the house price is estimated by using regression and ense
 
 * Finally, I decided to use the lightgbm model and the r2 value of my model was =0.89. To be sure of this value, I cross-validated and chose the cv value of 5. As a result, the r2 value I obtained is = 0.86
 
-#APP
+# APP
 
 After saving my model and standard scaler values using the pickle library, I performed the web integration of my model with streamlit.
 
-![alt text]( https://github.com/gamzeaslan/House_Price_Prediction_App/blob/main/app_1.png "App_1")
-
-![alt text]( https://github.com/gamzeaslan/House_Price_Prediction_App/blob/main/app_2.png "App_2")
 
 
 
