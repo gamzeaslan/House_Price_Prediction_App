@@ -96,7 +96,9 @@ With this application, the house price is estimated by using regression and ense
 
 After saving my model and standard scaler values using the pickle library, I performed the web integration of my model with streamlit.
 
-![alt text]( https://github.com/gamzeaslan/House_Price_Prediction_App/blob/main/year_saleprice.png "YearBuilt and SalePrice Lineplot")
+![alt text]( https://github.com/gamzeaslan/House_Price_Prediction_App/blob/main/app_1.png "App_1")
+
+![alt text]( https://github.com/gamzeaslan/House_Price_Prediction_App/blob/main/app_2.png "App_2")
 
 
 
