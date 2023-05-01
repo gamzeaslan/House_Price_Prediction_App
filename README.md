@@ -2,31 +2,31 @@
 With this application, the house price is estimated by using regression and ensemble models in line with the information entered by the user.
 ********************************************
 # Project Overview
-* ** The goal of the Project**: I developed a model that finds the most suitable price for the house in line with the features entered by the user.With this model, the landlord does not sell his house at a high price. Thus, it does not reduce the probability of the house being sold.Also, the landlord does not sell his house at a low price. Thus, there is no loss.
+* **The goal of the Project**: I developed a model that finds the most suitable price for the house in line with the features entered by the user.With this model, the landlord does not sell his house at a high price. Thus, it does not reduce the probability of the house being sold.Also, the landlord does not sell his house at a low price. Thus, there is no loss.
 
 * The variables in the dataset I use for this model are as follows (the dataset before the data cleaning phase):
-    * Id: This column contains a unique ID number for each house.
-    * MSSubClass: This column indicates the construction class of the house. For example, it indicates whether it is a single-family home or a multi-family home.
-    * MSZoning: This column shows the zoning status of the house's location. For example, the home may be in a commercial, residential, or industrial area.
-    * LotFrontage: This column measures the length of the road facing the front of the house parcel.
-    * LotArea: This column measures the total area of the parcel of the house.
-    * Street: This column indicates whether the house is on a street or street, or in a rural area.
-    * Alley: This column indicates whether the house has an alleyway to access the backyard.
-    * LotShape: This column indicates the shape of the parcel of the house (straight, corner, curved, etc.).
-    * LandContour: This column indicates the surface shape of the parcel of the house (flat, curved, etc.).
-    * Utilities: This column indicates whether the house has any essential services (water, electricity, gas, etc.).
-    * LotConfig: This column indicates the position of the house parcel (corner, flat, etc.).
-    * LandSlope: This column indicates the slope of the parcel of the house (none, light, medium, strong).
-    * Neighborhood: This column indicates the neighborhood where the house is located.
-    * Condition1 and Condition2: These columns indicate conditions around the house (main road, railroad, park, etc.).
-    * BldgType: This column indicates the type of house (single-family house, multi-family house, etc.).
-    * HouseStyle: This column indicates the architectural style of the house (ranch, two-story, three-story, etc.).
-    * OverallQual: This column indicates the overall quality of the home on a scale of 1 to 10.
-    * OverallCond: This column indicates the general condition of the house on a scale of 1 to 10.
-    * YearBuilt: This column indicates the year the house was built.
-    * YearRemodAdd: This column indicates the year the house was last renovated.
-    * RoofStyle: This column indicates the roof type of the house (attic, hip, flat, etc.).
-    * RoofMatl: This column indicates the material of the roof of the house (mostly cement etc.)
+    * **Id** : This column contains a unique ID number for each house.
+    * **MSSubClass** : This column indicates the construction class of the house. For example, it indicates whether it is a single-family home or a multi-family home.
+    * **MSZoning** : This column shows the zoning status of the house's location. For example, the home may be in a commercial, residential, or industrial area.
+    * **LotFrontage** : This column measures the length of the road facing the front of the house parcel.
+    * **LotArea** : This column measures the total area of the parcel of the house.
+    * **Street** : This column indicates whether the house is on a street or street, or in a rural area.
+    * **Alley** : This column indicates whether the house has an alleyway to access the backyard.
+    * **LotShape** : This column indicates the shape of the parcel of the house (straight, corner, curved, etc.).
+    * **LandContour** : This column indicates the surface shape of the parcel of the house (flat, curved, etc.).
+    * **Utilities** : This column indicates whether the house has any essential services (water, electricity, gas, etc.).
+    * **LotConfig** : This column indicates the position of the house parcel (corner, flat, etc.).
+    * **LandSlope** : This column indicates the slope of the parcel of the house (none, light, medium, strong).
+    * **Neighborhood** : This column indicates the neighborhood where the house is located.
+    * **Condition1** and **Condition2** : These columns indicate conditions around the house (main road, railroad, park, etc.).
+    * **BldgType** : This column indicates the type of house (single-family house, multi-family house, etc.).
+    * **HouseStyle** : This column indicates the architectural style of the house (ranch, two-story, three-story, etc.).
+    * **OverallQual** : This column indicates the overall quality of the home on a scale of 1 to 10.
+    * **OverallCond** : This column indicates the general condition of the house on a scale of 1 to 10.
+    * **YearBuilt** : This column indicates the year the house was built.
+    * **YearRemodAdd** : This column indicates the year the house was last renovated.
+    * **RoofStyle** : This column indicates the roof type of the house (attic, hip, flat, etc.).
+    * **RoofMatl** : This column indicates the material of the roof of the house (mostly cement etc.)
 * For this project I used the LigthGBM model
 *	I did the web integration using streamlit library
 
